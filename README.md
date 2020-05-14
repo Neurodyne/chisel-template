@@ -1,2 +1,2 @@
-# chisel-template
-A starter template for your next Chisel project
+# Chisel-template
+Your next Chisel project template
