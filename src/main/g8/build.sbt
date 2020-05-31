@@ -34,7 +34,7 @@ lazy val root = (project in file("."))
     organization := "Neurodyne",
     name := "hello",
     version := "0.0.1",
-    scalaVersion := "2.12.10",
+    scalaVersion := "2.12.11",
     maxErrors := 3,
     commonSettings,
     zioDeps,
