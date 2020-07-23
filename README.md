@@ -11,7 +11,7 @@ Your next Chisel project template
 ```bash
 > mkdir my-project
 > cd my-project 
-> sbt new Neurodyne/chisel-template.g8
+> sbt new chisel-crew/chisel-crew.g8
 ```
 
 2. Run tests locally 
@@ -21,3 +21,10 @@ Your next Chisel project template
 ```
 
 3. Add your code
+
+4. To publish your code as a library, setup the [Bintray](https://bintray.com/) account and type 
+```bash
+> sbt 
+> publish
+```
+This will publish your artifact on Bintray and it will be immediately available for reference in other projects
